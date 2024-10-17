@@ -1,0 +1,24 @@
+[project]
+name = "repoupdate"
+description = "Tool for syncing GitHub repositories and pulling from them."
+version = "0.0.1"
+authors = [
+ { name = "Daniel Diniz"},
+]
+readme = "README"
+
+dependencies = [
+    "github3.py",
+    "requests",
+    "uritemplate",
+    "python-dateutil",
+    "PyJWT",
+]
+
+[project.optional-dependencies]
+test = [
+    "coverage",
+]
+
+[project.urls]
+Homepage = "https://github.com/devdanzin/repoupdate"
